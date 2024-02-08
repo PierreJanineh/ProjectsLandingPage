@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:projects_landing_page/home/hero_content.dart';
 import 'package:projects_landing_page/nav/app_nav_bar.dart';
 
 import '../nav/app_drawer.dart';
@@ -17,6 +18,7 @@ class HomeScreen extends StatelessWidget {
           child: Column(
             children: [
               AppNavbar(),
+              Expanded(child: HeroContent()),
             ],
           ),
         ),
