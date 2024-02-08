@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'home/home_screen.dart';
+
 void main() {
   runApp(const MainApp());
 }
@@ -15,6 +17,7 @@ class MainApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         fontFamily: 'Poppins',
       ),
+      home: const HomeScreen(),
     );
   }
 }
