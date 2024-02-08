@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:projects_landing_page/nav/app_nav_bar.dart';
 
 import '../nav/app_drawer.dart';
 
@@ -14,7 +15,9 @@ class HomeScreen extends StatelessWidget {
         width: double.infinity,
         child: const SafeArea(
           child: Column(
-            children: [],
+            children: [
+              AppNavbar(),
+            ],
           ),
         ),
       ),
